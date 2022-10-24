@@ -14,10 +14,10 @@ function OffCanvasExample({ name, ...props }) {
     <nav className='navbar'>
       <div className='container-fluid'>
         <a href="https://www.google.com/">
-              <img src={logo} className="logo" alt="logo" />
+              <img src={logo} className="logo animate fadeIn" alt="logo" />
         </a>
         <div className="nav-wrap" onClick={toggleShow}>
-          <i class="bi bi-list" style={{ fontSize: 40 }}></i>
+          <i class="bi bi-list animate fadeIn" style={{ fontSize: 40 }}></i>
         </div>
         <Offcanvas show={show} onHide={handleClose} {...props}>
           <Offcanvas.Header closeButton>

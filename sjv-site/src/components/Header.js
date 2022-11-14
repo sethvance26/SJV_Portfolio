@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 // import {Link} from "react-scroll";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
                 {/* <h1 className="head-text">Seth Vance</h1>
                 <h2 className="head-secondtext">Web Developer</h2> */}
                 <div id="test" className="head-text">
-                  <Typed 
+                  <div 
                     className="typed-text" 
                     strings={["Seth Vance"]}
                     typeSpeed={90}
